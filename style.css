@@ -1,0 +1,36 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+h1{
+      text-align: center;
+      
+}
+.image_list{
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+}
+img{
+      width: 250px;
+      object-fit: cover;
+      border-radius: 8px;
+}
+img:hover{
+      scale: 1.05;
+      transition: ease;
+}
+.top{
+      height: 50%;
+      background-color: antiquewhite;
+      padding: 1rem;
+      margin-bottom: 1rem;
+}
+.bottom{
+      height: 50%;
+}
+.btm_img{
+      display: flex;
+      justify-content: center;
+}
