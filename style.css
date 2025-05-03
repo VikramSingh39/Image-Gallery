@@ -34,3 +34,21 @@ img:hover{
       display: flex;
       justify-content: center;
 }
+@media (max-width: 768px){
+      .top img{
+            width: 200px;
+      }
+}
+@media (max-width: 500px){
+      .top{
+            padding: 12px;
+      }
+      .top img{
+        width: 100px;
+      }
+      .image_list{
+            display: flex;
+        
+      
+      }
+}
